@@ -1,0 +1,626 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Whiskey Selection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300;400&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Fira Sans Condensed";
+            font-weight: 200;
+            font-style: normal;
+            color: white;
+            background-color: #121212;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        header {
+            background-color: #080808;
+            width: 100%;
+            height: 10ch;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 7ch;
+            height: 7ch;
+            margin-left: 4ch;
+        }
+
+        header h1 {
+            margin-left: 1ch;
+        }
+
+        header a {
+            margin-left: 2ch;
+        }
+
+        header a svg {
+            width: 5ch;
+            height: 5ch;
+            filter: invert(100%);
+        }
+
+        header input {
+            margin-left: 4ch;
+            width: 30ch;
+        }
+
+        h1 {
+            color: white;
+            position: relative;
+            display: inline-block;
+        }
+
+        a img {
+            height: 3.5ch;
+            width: 3.5ch;
+            filter: invert(100%) sepia(0%);
+            transition: 1s;
+        }
+
+        a img:hover {
+            scale: 125%;
+        }
+
+        ul {
+            margin-top: 0;
+            display: none;
+            border-color: #202020;
+            border-radius: 1ch;
+            border-style: solid;
+            border-width: 4px;
+            background-color: #0e0e0e;
+            padding: 2.5ch;
+            transition: 2s;
+        }
+
+        ul ::marker {
+            content: '🥃';
+        }
+
+        li {
+            padding-left: 2ch;
+            padding-right: 2ch;
+            text-align: left;
+        }
+
+        .dropdown {
+            cursor: pointer;
+            font-size: large;
+            margin: 2ch auto;
+            width: fit-content;
+            color: white;
+            border-color: #202020;
+            border-radius: 1ch;
+            border-style: solid;
+            border-width: 4px;
+            background-color: #0e0e0e;
+            padding: 1ch;
+        }
+
+        .dropdown:hover {
+            border-color: white;
+            transition: 1s;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition: 1s;
+        }
+
+        a:hover {
+            color: sandybrown;
+        }
+    </style>
+    <link rel="icon" type="image/icon" href="https://static.vecteezy.com/system/resources/previews/027/141/899/original/ai-generated-image-clipart-amber-whiskey-liquor-in-a-clear-glass-with-ice-free-png.png" />
+</head>
+
+<body>
+    <header>
+        <img class="header_image"
+            src="https://static.vecteezy.com/system/resources/previews/027/141/899/original/ai-generated-image-clipart-amber-whiskey-liquor-in-a-clear-glass-with-ice-free-png.png" />
+        <h1>Whiskey Selection</h1>
+    </header>
+    <p>
+        Introducing Whiskey Selection, a hand picked list of useful links by
+        Vladimir-sama
+    </p>
+    <span>
+        <p class="dropdown">All purpose piracy ></p>
+        <ul>
+            <li>
+                <a href="https://archive.org/">The Internet Archive</a>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/Piracy/wiki/megathread/">Piracy Megathread</a>
+            </li>
+            <li>
+                <a href="https://fmhy.net/">freemediaheckyeah</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Programming software ></p>
+        <ul>
+            <li>
+                <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+            </li>
+            <li>
+                <a href="https://zed.dev/">Zed</a>
+            </li>
+            <li>
+                <a href="https://www.python.org/">Python</a>
+            </li>
+            <li>
+                <a href="https://github.com/">Github</a>
+            </li>
+            <li>
+                <a href="https://godotengine.org/">Godot Engine</a>
+            </li>
+            <li>
+                <a href="https://github.com/GodotSteam/GodotSteam">Godot Steam SDK</a>
+            </li>
+            <li>
+                <a href="https://www.unrealengine.com/">Unreal Engine</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Game development assets ></p>
+        <ul>
+            <li>
+                <a href="https://store.steampowered.com/app/1486350/VRoid_Studio_v1291/">VRoid Studio</a>
+            </li>
+            <li>
+                <a href="https://www.thebasemesh.com/">The Base Mesh</a>
+            </li>
+            <li>
+                <a href="https://polyhaven.com/">Poly Haven</a>
+            </li>
+            <li>
+                <a href="https://www.mixamo.com/">Mixamo</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">AI tools ></p>
+        <ul>
+            <li>
+                <a href="https://chatgpt.com/">ChatGPT</a>
+            </li>
+            <li>
+                <a href="https://character.ai/">Character AI</a>
+            </li>
+            <li>
+                <a href="https://imgupscaler.com/">Image Upscaler</a>
+            </li>
+            <li>
+                <a href="https://codeium.com/">Codeium</a>
+            </li>
+            <li>
+                <a href="https://dezgo.com/">Dezgo</a>
+            </li>
+            <li>
+                <a href="https://fastflux.ai/">FastFLUX</a>
+            </li>
+            <li>
+                <a href="https://suno.com/">SUNO</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Operating Systems ></p>
+        <ul>
+            <li>
+                <a href="https://artixlinux.org/">Artix Linux</a>
+            </li>
+            <li>
+                <a href="https://www.gentoo.org/">Gentoo</a>
+            </li>
+            <li>
+                <a href="https://linuxmint.com/">Linux Mint</a>
+            </li>
+            <li>
+                <a href="https://garudalinux.org/">Garuda Linux</a>
+            </li>
+            <li>
+                <a href="https://alpinelinux.org/">Alpine Linux</a>
+            </li>
+            <li>
+                <a href="https://voidlinux.org/">Void Linux</a>
+            </li>
+            <li>
+                <a href="https://www.devuan.org/">Devuan</a>
+            </li>
+            <li>
+                <a href="https://www.microsoft.com/en-us/software-download/windows10ISO">Windows 10</a>
+            </li>
+            <li>
+                <a href="https://atlasos.net/">Atlas OS</a>
+            </li>
+            <li>
+                <a href="https://osmc.tv/">OSMC</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Cloud storage ></p>
+        <ul>
+            <li>
+                <a href="https://drive.google.com/">Google Drive</a>
+            </li>
+            <li>
+                <a href="https://www.dropbox.com/">Dropbox</a>
+            </li>
+            <li>
+                <a href="https://app.mediafire.com/">MediaFire</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Game stores and platforms ></p>
+        <ul>
+            <li>
+                <a href="https://store.steampowered.com/">Steam</a>
+            </li>
+            <li>
+                <a href="https://www.nutaku.net/">Nutaku</a>
+            </li>
+            <li>
+                <a href="https://store.epicgames.com/">Epic Games</a>
+            </li>
+            <li>
+                <a href="https://itch.io/games/">Itch Io Games</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Games selection ></p>
+        <ul>
+            <li>
+                <a href="https://www.rfaltruism.co.uk/">Rising Force Online</a>
+            </li>
+            <li>
+                <a href="https://www.wowarg.com.ar/">World Of Warcraft</a>
+            </li>
+            <li>
+                <a href="https://mukatano.com.ar/">MU Online</a>
+            </li>
+            <li>
+                <a href="https://d3reflection.org/">Diablo 3</a>
+            </li>
+            <li>
+                <a href="https://d4reflection.org/">Diablo 4</a>
+            </li>
+            <li>
+                <a href="https://xonotic.org/">Xonotic</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/10/CounterStrike/">Counter Strike 1.6</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/240/CounterStrike_Source/">Counter Strike Source</a>
+            </li>
+            <li>
+                <a href="https://www.moddb.com/mods/counter-strike-source-offensive/">Counter Strike Source
+                    Offensive</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/4000/Garrys_Mod/">Garrys Mod</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/225840/Sven_Coop/">Sven Coop</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">Left 4 Dead 2</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/105600/Terraria/">Terraria</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/1281930/tModLoader/">tModLoader</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/413150/Stardew_Valley/">Stardew Valley</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/291550/Brawlhalla/">Brawlhalla</a>
+            </li>
+            <li>
+                <a href="https://store.steampowered.com/app/2281730/Combat_Master_Season_2/">Combat Master</a>
+            </li>
+            <li>
+                <a href="https://github.com/hero-persson/FjordLauncherUnlocked/">Minecraft</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Software selection ></p>
+        <ul>
+            <li>
+                <a href="https://www.libreoffice.org/">LibreOffice</a>
+            </li>
+            <li>
+                <a href="https://www.qbittorrent.org/">qBittorrent</a>
+            </li>
+            <li>
+                <a href="https://www.deluge-torrent.org/">Deluge</a>
+            </li>
+            <li>
+                <a href="https://gopeed.com/">Gopeed</a>
+            </li>
+            <li>
+                <a href="https://xtremedownloadmanager.com/">XDM</a>
+            </li>
+            <li>
+                <a href="https://obsproject.com/">OBS Studio</a>
+            </li>
+            <li>
+                <a href="https://mpv.io/">MPV Media Player</a>
+            </li>
+            <li>
+                <a href="https://www.videolan.org/">VLC Media Player</a>
+            </li>
+            <li>
+                <a href="https://jellyfin.org/">Jellyfin</a>
+            </li>
+            <li>
+                <a href="https://kodi.tv/">Kodi</a>
+            </li>
+            <li>
+                <a href="https://www.blender.org/">Blender</a>
+            </li>
+            <li>
+                <a href="https://www.openshot.org/">Openshot</a>
+            </li>
+            <li>
+                <a href="https://kdenlive.org/">Kdenlive</a>
+            </li>
+            <li>
+                <a href="https://www.shotcut.org/">Shotcut</a>
+            </li>
+            <li>
+                <a href="https://www.gimp.org/">GIMP</a>
+            </li>
+            <li>
+                <a href="https://inkscape.org/">Inkscape</a>
+            </li>
+            <li>
+                <a href="https://krita.org/">Krita</a>
+            </li>
+            <li>
+                <a href="https://www.7-zip.org/">7 Zip</a>
+            </li>
+            <li>
+                <a href="https://peazip.github.io/">PeaZip</a>
+            </li>
+            <li>
+                <a href="https://notepad-plus-plus.org/">Notepad++</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Torrent sites ></p>
+        <ul>
+            <li>
+                <a href="https://1337x.to/">1337x</a>
+            </li>
+            <li>
+                <a href="https://www.alt-torrent.com/">Alt Torrent</a>
+            </li>
+            <li>
+                <a href="https://www.limetorrents.lol/">Lime Torrents</a>
+            </li>
+            <li>
+                <a href="https://www.magnetdl.com/">Magnet DL</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Linux piracy ></p>
+        <ul>
+            <li>
+                <a href="https://freelinuxpcgames.com/">Free Linux PC Games</a>
+            </li>
+            <li>
+                <a href="https://1337x.to/user/johncena141/">JC141 on 1337x</a>
+            </li>
+            <li>
+                <a href="https://archive.org/details/native-linux-games-collection">Native Linux Games Collection Web Archive</a>
+            </li>
+            <li>
+                <a href="https://github.com/AbdelrhmanNile/steal">steaL</a>
+            </li>
+            <li>
+                <a href="https://forum.torrminatorr.com/viewforum.php?f=26">Torrminatorr</a>
+            </li>
+            <li>
+                <a href="https://www.kapitalsin.com/forum/index.php?PHPSESSID=ff3043022d5f23fb3803061145189cb3&board=4.20">Kapital Sin</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Windows piracy ></p>
+        <ul>
+            <li>
+                <a href="https://massgrave.dev/">Activate Windows</a>
+            </li>
+            <li>
+                <a href="https://steamunlocked.net/">Steam Unlocked</a>
+            </li>
+            <li>
+                <a href="https://steamrip.com/">Steam Rip</a>
+            </li>
+            <li>
+                <a href="https://gog-games.to/">Gog Games</a>
+            </li>
+            <li>
+                <a href="https://fitgirl-repacks.site/">Fitgirl Repacks</a>
+            </li>
+            <li>
+                <a href="https://dodi-repacks.site/">Dodi Repacks</a>
+            </li>
+            <li>
+                <a href="https://dodi-repacks.download/">Dodi Repacks Mirror</a>
+            </li>
+            <li>
+                <a href="https://cracksurl.com/">CRACKSurl</a>
+            </li>
+            <li>
+                <a href="https://lrepacks.net/">LRepacks</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Android piracy ></p>
+        <ul>
+            <li>
+                <a href="https://espacioapk.com/">Espacio APK</a>
+            </li>
+            <li>
+                <a href="https://alexmods.com/">Alex Mods</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Minecraft extras ></p>
+        <ul>
+            <li>
+                <a href="https://ely.by/">Ely By Accounts</a>
+            </li>
+            <li>
+                <a href="https://github.com/yushijinhun/authlib-injector">Authlib Injector</a>
+            </li>
+            <li>
+                <a href="https://ko-fi.com/haubna/posts">Physics Mod</a>
+            </li>
+            <li>
+                <a href="https://modrinth.com/">Modrinth</a>
+            </li>
+            <li>
+                <a href="https://www.curseforge.com/minecraft">Curseforge</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Books and manga ></p>
+        <ul>
+            <li>
+                <a href="https://mangadex.org/">MangaDex</a>
+            </li>
+            <li>
+                <a href="https://mangareader.to/">MangaReader</a>
+            </li>
+            <li>
+                <a href="https://singlelogin.re/">Z-Library</a>
+            </li>
+            <li>
+                <a href="https://annas-archive.li/">Anna's Archive</a>
+            </li>
+            <li>
+                <a href="https://pdfdrive.to/">PDF Drive</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Movies and TV sites ></p>
+        <ul>
+            <li>
+                <a href="https://www.braflix.ru/">Braflix</a>
+            </li>
+            <li>
+                <a href="https://flixhq.click/">FlixHQ</a>
+            </li>
+            <li>
+                <a href="https://hydrahd.com/">HydraHD</a>
+            </li>
+            <li>
+                <a href="https://nepu.to/">NEPU</a>
+            </li>
+            <li>
+                <a href="https://nunflix.com/">Nunflix</a>
+            </li>
+            <li>
+                <a href="https://rivestream.live/">Rive</a>
+            </li>
+            <li>
+                <a href="https://smashystream.com/">SmashyStream</a>
+            </li>
+            <li>
+                <a href="https://vidplay.org/">VidPlay</a>
+            </li>
+            <li>
+                <a href="https://cuevana3.ch/">Cuevana 3</a>
+            </li>
+            <li>
+                <a href="https://cuevana.bot/">Cuevana 3 (2)</a>
+            </li>
+            <li>
+                <a href="https://sololatino.net/">Solo Latino</a>
+            </li>
+            <li>
+                <a href="https://pelisplusgo.vip/">PelisPlus</a>
+            </li>
+            <li>
+                <a href="https://www.pelisxd.com/">Pelis XD</a>
+            </li>
+        </ul>
+    </span>
+    <span>
+        <p class="dropdown">Anime sites ></p>
+        <ul>
+            <li>
+                <a href="https://animension.to/">Animension</a>
+            </li>
+            <li>
+                <a href="https://latanime.org/">Latanime</a>
+            </li>
+            <li>
+                <a href="https://www.miruro.tv/">Miruro</a>
+            </li>
+            <li>
+                <a href="https://hianime.to/">HiAnime</a>
+            </li>
+            <li>
+                <a href="https://animepahe.ru/">AnimePahe</a>
+            </li>
+            <li>
+                <a href="https://www3.animeflv.net/">Animeflv</a>
+            </li>
+        </ul>
+    </span>
+    <script>
+        const toggle_buttons = document.querySelectorAll(".dropdown");
+
+        toggle_buttons.forEach((button) => {
+            button.addEventListener("click", function () {
+                const parent_span = this.parentElement;
+
+                const ul = parent_span.querySelector("ul");
+
+                if (
+                    ul.style.display === "none" ||
+                    ul.style.display === ""
+                ) {
+                    ul.style.display = "inline-block";
+                } else {
+                    ul.style.display = "none";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
