@@ -1,2 +1,2 @@
-# whiskey
+# Whiskey Selection
 Whiskey Selection Document
